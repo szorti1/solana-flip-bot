@@ -21,7 +21,7 @@ MAX_AGE_HOURS = 48
 CHECK_INTERVAL = 180  # co 3 min
 MIN_LIQUIDITY = 100_000
 
-bot = Bot(token=TELEGRAM_TOKEN)
+bot = Bot(token=8398851903:AAHxvBNjfEJeO6J6a1WcjuDnGWyAo_QwQb8)
 
 SEEN_FILE = "seen_tokens.json"
 if os.path.exists(SEEN_FILE):
@@ -115,5 +115,4 @@ while True:
         check_market()
     except Exception as e:
         print("Błąd:", e)
-
     time.sleep(CHECK_INTERVAL)
