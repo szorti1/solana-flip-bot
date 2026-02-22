@@ -1,0 +1,1 @@
+worker: python solana_alert_bot.py
