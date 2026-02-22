@@ -8,8 +8,8 @@ from datetime import datetime, timezone
 # =====================
 # 🔐 ZMIENNE ŚRODOWISKOWE
 # =====================
-TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN")
-CHAT_ID = os.environ.get("CHAT_ID")
+TELEGRAM_TOKEN = os.environ.get("8398851903:AAHxvBNjfEJeO6J6a1WcjuDnGWyAo_QwQb8")
+CHAT_ID = os.environ.get("1725153905")
 
 # =====================
 # 🔥 FLIP SETTINGS
@@ -115,4 +115,5 @@ while True:
         check_market()
     except Exception as e:
         print("Błąd:", e)
+
     time.sleep(CHECK_INTERVAL)
